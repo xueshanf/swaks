@@ -1,4 +1,4 @@
-ROM ubuntu:14.04
+FROM ubuntu:14.04
 MAINTAINER Xueshan Feng <sfeng@stanford.edu>
 
 # To run the image, pass SERVER, FROM, TO, RUNS, and JOBS to the image, for example:
