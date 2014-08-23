@@ -3,8 +3,7 @@ MAINTAINER Xueshan Feng <sfeng@stanford.edu>
 
 # To run the image, pass SERVER, FROM, TO, RUNS, and JOBS to the image, for example:
 #
-# docker run -e SERVER=smtp.example.com -e FROM=me@example.com -e TO=you@example.com -e
-RUNS=100 -e JOBS=3 <imageId>
+# docker run -h <fqdn> -e SERVER=smtp.example.com -e FROM=me@example.com -e TO=you@example.com -e RUNS=100 -e JOBS=3 <imageId>
 
 # Install packages
 RUN apt-get update
