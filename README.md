@@ -1,10 +1,10 @@
 Docker swaks
 ============
 
-Docker Swaks to run loadtest against SMTP server. 
+Use docker swaks to run loadtest against SMTP server. 
 
 This docker image uses parallel and swaks commands to launch smtp test against 
-an smtp server. 
+a smtp server. 
 
 Usage:
 
