@@ -8,5 +8,5 @@ an smtp server.
 
 Usage:
 
-docker pull xueshanf/swaks
-docker run -n <fqdn> -e SERVER=smtp.example.com -e FROM=me@yahoo.com -e TO=me@example.com -e RUNS=100 -e JOBS=5 
+    docker pull xueshanf/swaks
+    docker run -n <fqdn> -e SERVER=smtp.example.com -e FROM=me@yahoo.com -e TO=me@example.com -e RUNS=100 -e JOBS=5 
