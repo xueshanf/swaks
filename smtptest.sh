@@ -18,6 +18,6 @@ else
     jobs=$JOBS
 fi
 
-swakscmd="swaks --tls-optional --server $server --from $from --to $to"
+swakscmd="swaks -4 --tls-optional --server $server --from $from --to $to"
 
 seq $runs | parallel -j$jobs -n0 $swakscmd :::
